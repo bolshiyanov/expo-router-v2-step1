@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "myPizzaApp",
-    "slug": "myPizzaApp",
+    "name": "expo-router-v2-step1",
+    "slug": "expo-router-v2-step1",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "myapp",
+    "scheme": "expo-router-v2-step1",
     "userInterfaceStyle": "automatic",
     "splash": {
       "image": "./assets/images/splash.png",
