@@ -48,7 +48,7 @@ Step-by-Step Guide:
 
 6. Our project is already equipped with settings to generate a static HTML site during export. Additionally, we can obtain a React SPA, which will prove useful when working with Redux. Pause the project execution and use the command npx expo export -p web in VSCode's console.
 
-<h3 align="left">Problem 1: expo-router v2 </h3>
+<h3 align="left">Problem 1: EXPO-ROUTER v2 </h3>
 There may be an error during export, necessitating the installation of the sharp-cli package with npm install sharp-cli. After a successful export, a dist folder emerges at the project root – your inaugural static website.
 
 Or simply start with this template.
@@ -57,7 +57,7 @@ This static site is now available. Explore it using browser developer tools.
 
 7. Avoid rushing to PUSH your code; it serves little purpose for publishing your site. First, open .gitignore at your project's root.
 
-<h3 align="left">Problem 2: expo-router v2</h3>
+<h3 align="left">Problem 2: EXPO-ROUTER v2</h3>
 dist folder, marked as ignored, must be removed from .gitignore.
 
 Now, execute the commands as prompted by GitHub, starting with git init and git add . (note the space between git add and the dot). Follow the subsequent commands in the order specified on GitHub's page.
@@ -81,7 +81,14 @@ Now, re-export and publish.
 
 Hurrah! Your first React-Native static site using expo-router v2 is live.
 
-It's worth noting that the initial size of a script in the browser console is around 360KB. My initial disappointment turned into intrigue. Blocking scripts and refreshing the console reduced the page size to 6KB. This newfound efficiency bolsters my enthusiasm for expo-router v2.
+And by the way, I'm a little more upset than the fact that I find a 360kb script in the browser console on the NETWORK tab. My first thought was this:
+An empty page from expo-router already occupies 360 kb, whereas in my full-fledged projects on react, my bundle size is 170 kb ... at first I was sad.
+
+<img alt="expo sdk" height="128" src="./assets/images/git/Scr.png">
+
+My initial disappointment turned into intrigue. Blocking scripts and refreshing the console reduced the page size to 6KB. This newfound efficiency bolsters my enthusiasm for expo-router v2.
+
+<img alt="expo sdk" height="128" src="./assets/images/git/Scr1.png">
 
 In this iteration, we haven't added the meta tags and other SEO essentials yet, but we'll address those in the future. Currently, three HTML pages exist: two in the "Tab" navigator and one in a modal window.
 
