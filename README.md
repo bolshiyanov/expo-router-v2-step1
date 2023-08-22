@@ -1,9 +1,9 @@
 <!-- Banner Image -->
 <p align="center">
   <a href="https://expo.dev/">
-    <img alt="expo sdk" height="128" src="./.github/resources/banner.png">
+    <img alt="expo sdk" height="128" src="./assets/images/banner.png">
     <h1 align="center">Expo Router v2 </h1>
-    <h2 align="center">step by step totorial </h2>
+    <h2 align="center">step by step tutorial </h2>
     <h3 align="center">Building Apps for Crafting Static Websites for Google and Other Social Networks, as well as a Mobile App for iOS and Android  </h3>
   </a>
 </p>
@@ -11,7 +11,7 @@
 <p align="center">
   <a aria-label="try expo with snack" href="https://expo-router-v2-static-web-app-step-1.netlify.app/"><b>This 1 step</b></a>
  |
-  <a aria-label="expo documentation" href="https://expo-router-v2-static-web-app-step-1.netlify.app/">Next 2 step< 📚</a>
+  <a aria-label="expo documentation" href="https://expo-router-v2-static-web-app-step-1.netlify.app/">Next 2 step 📚</a>
 </p>
 
 ---
