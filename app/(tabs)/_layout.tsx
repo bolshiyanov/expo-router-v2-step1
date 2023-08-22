@@ -1,6 +1,6 @@
 
-import { Tabs} from 'expo-router';
-import { useColorScheme } from 'react-native';
+import { Link, Tabs} from 'expo-router';
+import { Pressable, useColorScheme, Text  } from 'react-native';
 
 import Colors from '@/constants/Colors';
 
@@ -21,12 +21,30 @@ export default function TabLayout() {
         name="index"
         options={{
           title: 'Tab One',
-           }}
+           headerRight: () => (
+            <Link href="/modal" asChild>
+              <Pressable>
+                {({ pressed }) => (
+                  <Text>modal.....</Text>
+                )}
+              </Pressable>
+            </Link>
+          ),
+        }}
       />
       <Tabs.Screen
         name="two"
         options={{
           title: 'Tab Two',
+          headerRight: () => (
+            <Link href="/modal" asChild>
+              <Pressable>
+                {({ pressed }) => (
+                  <Text>modal.....</Text>
+                )}
+              </Pressable>
+            </Link>
+          ),
            }}
       />
     </Tabs>
