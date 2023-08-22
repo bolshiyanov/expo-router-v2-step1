@@ -84,11 +84,11 @@ Hurrah! Your first React-Native static site using expo-router v2 is live.
 And by the way, I'm a little more upset than the fact that I find a 360kb script in the browser console on the NETWORK tab. My first thought was this:
 An empty page from expo-router already occupies 360 kb, whereas in my full-fledged projects on react, my bundle size is 170 kb ... at first I was sad.
 
-<img alt="expo sdk" height="128" src="./assets/images/git/Scr.png">
+<img alt="expo sdk" height="128" src="./assets/images/git/Scr1.png">
 
 My initial disappointment turned into intrigue. Blocking scripts and refreshing the console reduced the page size to 6KB. This newfound efficiency bolsters my enthusiasm for expo-router v2.
 
-<img alt="expo sdk" height="128" src="./assets/images/git/Scr1.png">
+<img alt="expo sdk" height="128" src="./assets/images/git/Scr.png">
 
 In this iteration, we haven't added the meta tags and other SEO essentials yet, but we'll address those in the future. Currently, three HTML pages exist: two in the "Tab" navigator and one in a modal window.
 
