@@ -53,8 +53,6 @@ There may be an error during export, necessitating the installation of the sharp
 
 Or simply start with this template.
 
-This static site is now available. Explore it using browser developer tools.
-
 7. Avoid rushing to PUSH your code; it serves little purpose for publishing your site. First, open .gitignore at your project's root.
 
 <h3 align="left">Problem 2: EXPO-ROUTER v2</h3>
