@@ -58,7 +58,7 @@ Or simply start with this template.
 <h3 align="left">Problem 2: EXPO-ROUTER v2</h3>
 dist folder, marked as ignored, must be removed from .gitignore.
 
-Now, execute the commands as prompted by GitHub, starting with git init and git add . (note the space between git add and the dot). Follow the subsequent commands in the order specified on GitHub's page.
+Now, execute the commands as prompted by GitHub, starting with git init and git add&nbsp;. (note the space between git add and the dot). Follow the subsequent commands in the order specified on GitHub's page.
 
 8. With our project, including the dist folder, now on GitHub, we're ready to publish it on free hosting platforms such as Vercel or Netlify. After logging in, select "ADD A SITE FROM GITHUB." However, take heed: when configuring for publication, avoid selecting any framework. Instead, clear existing settings and add "dist" to PUBLISH DIRECTORY.
 
