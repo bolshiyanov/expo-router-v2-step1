@@ -72,9 +72,9 @@ My experience led me to discover a solution. Perhaps this issue is resolved now,
 <h3 align="left">Problem 3: EXPO-ROUTER v2</h3>
 Comment out the problematic code in /app/_layout.tsx:
 
-// if (!loaded) {</br>
-// return null;</br>
-// };</br>
+// if (!loaded) {<br/>
+// return null;<br/>
+// };
 
 Now, re-export and publish.
 
