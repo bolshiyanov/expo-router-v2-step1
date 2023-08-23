@@ -4,7 +4,9 @@
     <img alt="expo sdk" height="128" src="./assets/images/banner.png">
     <h1 align="center">Expo Router v2 </h1>
     <h2 align="center">step by step tutorial </h2>
-    Building Apps for Crafting Static Websites for Google and Other Social Networks, as well as a Mobile App for iOS and Android  </h3>
+   <h3 We will create an SAP platform for building static websites, as well as a mobile application for iOS and Android for Google and other social networks, like maps.menu  </h3>
+<h5> <a aria-label="expo documentation" href="https://maps.menu">maps.menu 📚</a></h5>
+<
   </a>
 </p>
 
@@ -18,9 +20,8 @@
 ---
 
 - [📚 About this step](#-documentation)
-- [🗺 Project Layout](#-project-layout)
-- [🏅 Badges](#-badges)
-- [👏 Contributing](#-contributing)
+- [🗺 Stack of this step](#-Stack of this step)
+- [🏅 Why expo-router v2](#-Why expo-router)
 - [❓ FAQ](#-faq)
 - [💙 The Team](#-the-team)
 - [License](#license)
@@ -91,7 +92,8 @@ My initial disappointment turned into intrigue. Blocking scripts and refreshing 
 In this iteration, we haven't added the meta tags and other SEO essentials yet, but we'll address those in the future. Currently, three HTML pages exist: two in the "Tab" navigator and one in a modal window.
 
 <h3 align="left">Problem 3: EXPO-ROUTER v2</h3>
-However, after export from Expo, the Expo/Vector-Icons don't appear in the app. The only way to access the MODAL page is to hardcode "/modal" in the address bar.
+
+<img alt="expo sdk" height="128" src="./assets/images/git/Scr2.1.png">
 
 We'll tackle this issue in the next step.
 
@@ -99,23 +101,34 @@ Although this problem has been discussed online for some time, Expo developers h
 
 Congratulations, you've created your first React-Native static site, or more precisely, React-Native. More details about the site's structure will be covered in a dedicated video for this step.
 
-## 🗺 Project Layout
+## 🗺 Stack of this step
 
-- [`packages`](/packages) All the source code for Expo modules, if you want to edit a library or just see how it works this is where you'll find it.
-- [`apps`](/apps) This is where you can find Expo projects which are linked to the development modules. You'll do most of your testing in here.
-- [`docs`](/docs) The source code for **https://docs.expo.dev**
-- [`templates`](/templates) The template projects you get when you run `npx create-expo-app`
-- [`react-native-lab`](/react-native-lab) This is our fork of `react-native` used to build Expo Go.
-- [`guides`](/guides) In-depth tutorials for advanced topics like contributing to the client.
-- [`android`](/android) contains the Android project.
-- [`home`](/home) contains the JavaScript source code of the app.
-- [`ios`](/ios) contains the iOS project.
-- [`ios/Exponent.xcworkspace`](/ios) is the Xcode workspace. Always open this instead of `Exponent.xcodeproj` because the workspace also loads the CocoaPods dependencies.
-- [`tools`](/tools) contains build and configuration tools.
-- [`template-files`](/template-files) contains templates for files that require private keys. They are populated using the keys in `template-files/keys.json`.
-- [`template-files/ios/dependencies.json`](/template-files/ios/dependencies.json) specifies the CocoaPods dependencies of the app.
 
-## 💙 Author
+- [`expo-router-v2`](expo-router-v2) Supported static web generation, css , seo.
+- [`expo-router`]( expo-router) There is no specific package called "expo-router." Expo uses React Navigation for routing
+- [`expo`](expo) Expo is a platform simplifying React Native development through tools, libraries, and workflow enhancements.
+- [`react-dom`](react-dom)React package enabling rendering of components in the web browser's DOM (Document Object Model).
+- [`react native`](react-native) JavaScript framework for building cross-platform mobile applications.
+- [`react`](react) JavaScript library for building user interfaces, maintained by Facebook and a community.
+- [`typescript`](typescript) TypeScript is a superset of JavaScript adding static typing for enhanced code quality and tooling.
+- [`gitHub`](gitHub) GitHub is a web-based platform for version control and collaboration using Git.
+- [`netlify`](netlify) Netlify is a web hosting platform for deploying and managing modern web projects.
+
+## 🏅 Why expo-router v2
+
+In today's ever-evolving business landscape, the efficacy of customer acquisition and retention holds paramount significance. The juncture where the cost of attracting customers to their initial purchase intersects with the metrics of retention and Life Time Value defines a pivotal point for real-world businesses. It's within this context that businesses often navigate towards the realm of search engine optimization, leveraging the potential to harness organic traffic from giants like Google.<br/>
+
+A website, undoubtedly, serves as a comfortable initial touchpoint between the business and its potential clientele. Yet, its true value is accentuated by the user's willingness to return, thereby fortifying the need for an engaging and compelling platform. However, the second engagement with the customer sets a new objective – that of offering a seamless, native application experience tailored for iPhones and Android devices. Thus, astute businesses strike a harmonious balance by maintaining a static website for search engine visibility and a dynamic mobile application for the app marketplaces.<br/>
+
+Until recently, solutions of such intricate synergy were often reserved for behemoth teams like Twitter, involving an intricate orchestration of web and native components by scores of developers. However, the landscape has witnessed a transformation with the advent of Expo Router Version 2. The paradigm shift has revolutionized the development process, allowing developers to craft code within a single ecosystem and seamlessly export the final product as both a static website and a feature-rich app on the Play Store.<br/>
+
+What's more, the horizon of possibilities has expanded to encompass wearable gadgets, including the likes of the Apple Watch, with Expo Router's extended support. In a matter of minutes, updates can be integrated, revolutionizing the agility with which businesses can iterate their offerings. This presents an unparalleled opportunity to harness the full potential of the internet, propelling businesses toward the realization of their objectives.<br/>
+
+The democratization of such a robust framework is a monumental leap forward. The once formidable barriers that hindered smaller entities from manifesting their digital aspirations have now dissolved. Expo Router ushers in an era of accessibility, granting every entrepreneur and business the tools to bridge the gap between their vision and its realization. As businesses embark on this journey, they are empowered to captivate audiences, foster loyalty, and elevate their digital presence – all while streamlining the development process in ways that were once the domain of the select few.<br/>
+
+In a world where success hinges on the symbiotic relationship between innovation and execution, Expo Router stands as a testament to the power of technology to democratize possibilities. It is an embodiment of the shift that has taken place in the landscape of app and web development – from the complex and unwieldy to the intuitive and efficient. As businesses embrace this evolution, they embark on a transformative trajectory, leaving behind the constraints of the past and venturing into a future where every dream of digital resonance and engagement can be woven into reality.<br/>
+
+## 💙 Author maps.menu v2
 
 Roman Bolshiyanov < status : open for cooperation, look job >
 
