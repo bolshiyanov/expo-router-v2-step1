@@ -62,7 +62,7 @@ Now, execute the commands as prompted by GitHub, starting with git init and git 
 
 8. With our project, including the dist folder, now on GitHub, we're ready to publish it on free hosting platforms such as Vercel or Netlify. After logging in, select "ADD A SITE FROM GITHUB." However, take heed: when configuring for publication, avoid selecting any framework. Instead, clear existing settings and add "dist" to PUBLISH DIRECTORY.
 
-<img alt="expo sdk" height="128" src="./assets/images/git/Scr3.png">
+<img alt="expo sdk" height="128" src="./assets/images/git/Scr2.png">
 
 Congratulations! Your site is now published.
 
@@ -73,7 +73,7 @@ My experience led me to discover a solution. Perhaps this issue is resolved now,
 <h3 align="left">Problem 3: EXPO-ROUTER v2</h3>
 Comment out the problematic code in /app/_layout.tsx:
 
-<img alt="expo sdk" height="128" src="./assets/images/git/Scr2.png">
+<img alt="expo sdk" height="128" src="./assets/images/git/Scr3.png">
 
 Now, re-export and publish.
 
