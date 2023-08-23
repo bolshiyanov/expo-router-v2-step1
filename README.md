@@ -20,8 +20,8 @@
 ---
 
 - [📚 About this step](#-documentation)
-- [🗺 Stack of this step](#-Stack of this step)
-- [🏅 Why expo-router v2](#-Why expo-router)
+- [🗺 Stack of this step](#-Stack-of-this-step)
+- [🏅 Why expo-router v2](#-Why-expo-router)
 - [❓ FAQ](#-faq)
 - [💙 The Team](#-the-team)
 - [License](#license)
