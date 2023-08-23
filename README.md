@@ -91,7 +91,7 @@ My initial disappointment turned into intrigue. Blocking scripts and refreshing 
 
 In this iteration, we haven't added the meta tags and other SEO essentials yet, but we'll address those in the future. Currently, three HTML pages exist: two in the "Tab" navigator and one in a modal window.
 
-<h3 align="left">Problem 3: EXPO-ROUTER v2</h3>
+<h3 align="left">Problem 4: EXPO-ROUTER v2</h3>
 
 <img alt="expo sdk" height="128" src="./assets/images/git/Scr2.1.png">
 
