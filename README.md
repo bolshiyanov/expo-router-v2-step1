@@ -53,14 +53,12 @@ There may be an error during export, necessitating the installation of the sharp
 
 Or simply start with this template.
 
-This static site is now available. Explore it using browser developer tools.
-
 7. Avoid rushing to PUSH your code; it serves little purpose for publishing your site. First, open .gitignore at your project's root.
 
 <h3 align="left">Problem 2: EXPO-ROUTER v2</h3>
 dist folder, marked as ignored, must be removed from .gitignore.
 
-Now, execute the commands as prompted by GitHub, starting with git init and git add . (note the space between git add and the dot). Follow the subsequent commands in the order specified on GitHub's page.
+Now, execute the commands as prompted by GitHub, starting with git init and git add&nbsp;. (note the space between git add and the dot). Follow the subsequent commands in the order specified on GitHub's page.
 
 8. With our project, including the dist folder, now on GitHub, we're ready to publish it on free hosting platforms such as Vercel or Netlify. After logging in, select "ADD A SITE FROM GITHUB." However, take heed: when configuring for publication, avoid selecting any framework. Instead, clear existing settings and add "dist" to PUBLISH DIRECTORY.
 
@@ -84,11 +82,11 @@ Hurrah! Your first React-Native static site using expo-router v2 is live.
 And by the way, I'm a little more upset than the fact that I find a 360kb script in the browser console on the NETWORK tab. My first thought was this:
 An empty page from expo-router already occupies 360 kb, whereas in my full-fledged projects on react, my bundle size is 170 kb ... at first I was sad.
 
-<img alt="expo sdk" height="128" src="./assets/images/git/Scr.png">
+<img alt="expo sdk" height="128" src="./assets/images/git/Scr1.png">
 
 My initial disappointment turned into intrigue. Blocking scripts and refreshing the console reduced the page size to 6KB. This newfound efficiency bolsters my enthusiasm for expo-router v2.
 
-<img alt="expo sdk" height="128" src="./assets/images/git/Scr1.png">
+<img alt="expo sdk" height="128" src="./assets/images/git/Scr.png">
 
 In this iteration, we haven't added the meta tags and other SEO essentials yet, but we'll address those in the future. Currently, three HTML pages exist: two in the "Tab" navigator and one in a modal window.
 
