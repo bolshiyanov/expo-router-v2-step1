@@ -12,7 +12,7 @@
   <a aria-label="try expo with snack" href="https://expo-router-v2-static-web-app-step-1.netlify.app/"><b>This 1 step</b></a>
  | <a aria-label="try expo with snack" href="https://expo-router-v2-static-web-app-step-1.netlify.app/"><b>Look web site for 1 step</b></a>
  |
-  <a aria-label="expo documentation" href="https://expo-router-v2-static-web-app-step-1.netlify.app/">Next 2 step 📚</a>
+  <a aria-label="expo documentation" href="https://github.com/bolshiyanov/expo-router-v2-step2">Next 2 step 📚</a>
 </p>
 
 ---
@@ -62,6 +62,8 @@ Now, execute the commands as prompted by GitHub, starting with git init and git 
 
 8. With our project, including the dist folder, now on GitHub, we're ready to publish it on free hosting platforms such as Vercel or Netlify. After logging in, select "ADD A SITE FROM GITHUB." However, take heed: when configuring for publication, avoid selecting any framework. Instead, clear existing settings and add "dist" to PUBLISH DIRECTORY.
 
+<img alt="expo sdk" height="128" src="./assets/images/git/Scr2.png">
+
 Congratulations! Your site is now published.
 
 Chances are your expo-router v2-based static site might not load properly after publication, showing an error message: "SOMETHING WENT WRONG, TRY AGAIN."
@@ -71,9 +73,7 @@ My experience led me to discover a solution. Perhaps this issue is resolved now,
 <h3 align="left">Problem 3: EXPO-ROUTER v2</h3>
 Comment out the problematic code in /app/_layout.tsx:
 
-// if (!loaded) {<br/>
-// return null;<br/>
-// };
+<img alt="expo sdk" height="128" src="./assets/images/git/Scr3.png">
 
 Now, re-export and publish.
 
