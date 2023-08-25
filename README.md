@@ -110,7 +110,7 @@ Here's what you need to do:
 2) Build the project ['npm install'];
 3) Run ['npm start'];
 4) Locate in the code of the page ['./(tabs)/_layout.tsx'];
-5) Add a ['stack.screen'] code block;
+5) Add a ['tabScreen'] code block;
 6) Copy and rename the page two.tsx;
 7) Check the result;
 8) Run ['npx expo export'];
