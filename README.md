@@ -21,8 +21,8 @@
 
 - [📚 About this step](#-documentation)
 - [🗺 Stack of this step](#-Stack-of-this-step)
+- [❓ Your task for this step](#-your-task-for-this-step)
 - [🏅 Why expo-router v2](#-Why-expo-router)
-- [❓ FAQ](#-faq)
 - [💙 The Team](#-the-team)
 - [License](#license)
 
@@ -100,6 +100,23 @@ We'll tackle this issue in the next step.
 Although this problem has been discussed online for some time, Expo developers haven't yet provided a definitive solution. It's hoped that when you engage with this content, the issue will be resolved. Regardless, this challenge isn't all negative. Working with SVG images instead of Expo-vector-icons allows us to expand our app's potential.
 
 Congratulations, you've created your first React-Native static site, or more precisely, React-Native. More details about the site's structure will be covered in a dedicated video for this step.
+
+## ❓ Your task for this step
+
+As you can see, we only have two tabs in the bottomTabsNavigator. Let's add a third tab with the same icon and deploy this project to another free hosting, Vercel.
+
+Here's what you need to do:
+1) Create a repository for this step on GitHub, download this repository to your computer.
+2) Build the project ['npm install'];
+3) Run ['npm start'];
+4) Locate in the code of the page ['./(tabs)/_layout.tsx'];
+5) Add a ['stack.screen'] code block;
+6) Copy and rename the page two.tsx;
+7) Check the result;
+8) Run ['npx expo export'];
+9) Upload the updated project to your GitHub, add integration with Vercel hosting;
+10) Check the result on your hosting;
+11) Add a star to My repository.
 
 ## 🗺 Stack of this step
 
