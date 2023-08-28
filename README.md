@@ -5,7 +5,7 @@
     <h1 align="center">Expo Router v2 </h1>
     <h2 align="center">step by step tutorial </h2>
    <h3 We will create an SAP platform for building static websites, as well as a mobile application for iOS and Android for Google and other social networks, like maps.menu  </h3>
-<h5 align="center"> <a aria-label="expo documentation" href="https://maps.menu">maps.menu 📚</a></h5>
+<h5 align="center"> <a aria-label="expo documentation" href="https://maps.menu">We are revamping this: maps.menu📚</a></h5>
 <
   </a>
 </p>
